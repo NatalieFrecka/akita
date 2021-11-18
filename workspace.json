@@ -240,22 +240,6 @@
       },
       "schematics": {}
     },
-    "akita-schematics": {
-      "root": "libs/akita-schematics",
-      "sourceRoot": "libs/akita-schematics/src",
-      "projectType": "library",
-      "schematics": {},
-      "architect": {
-        "lint": {
-          "builder": "@nrwl/linter:lint",
-          "options": {
-            "linter": "eslint",
-            "tsConfig": ["libs/akita-schematics/tsconfig.schematics.json"],
-            "exclude": ["**/node_modules/**", "!libs/akita-schematics/**/*"]
-          }
-        }
-      }
-    },
     "akita-ng-effects": {
       "projectType": "library",
       "root": "libs/akita-ng-effects",
