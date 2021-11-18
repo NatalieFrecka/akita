@@ -1,0 +1,54 @@
+{
+  "name": "@datorama/akita-ng-effects",
+  "version": "1.0.6",
+  "description": "A Reactive State Management extension dealing with side effects.",
+  "keywords": [
+    "angular",
+    "state management",
+    "react",
+    "vue",
+    "typescript",
+    "javascript",
+    "rxjs",
+    "angular store",
+    "store",
+    "observable data stores",
+    "redux",
+    "reactive",
+    "effects"
+  ],
+  "homepage": "https://github.com/datorama/akita/tree/master/libs/akita-ng-effects#readme",
+  "bugs": {
+    "url": "https://github.com/datorama/akita/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datorama/akita",
+    "directory": "libs/akita-ng-effects"
+  },
+  "license": "Apache-2.0",
+  "author": "Yannick Boetzkes",
+  "peerDependencies": {
+    "@datorama/akita": ">= 6.0.0",
+    "@angular/core": ">= 8.0.0",
+    "@angular/common": ">= 8.0.0",
+    "rxjs": "*",
+    "tslib": "^2.0.0"
+  },
+  "dependencies": {
+    "ts-action": "^11.0.0",
+    "ts-action-operators": "^9.1.1"
+  },
+  "main": "bundles/datorama-akita-ng-effects.umd.js",
+  "module": "fesm5/datorama-akita-ng-effects.js",
+  "es2015": "fesm2015/datorama-akita-ng-effects.js",
+  "esm5": "esm5/datorama-akita-ng-effects.js",
+  "esm2015": "esm2015/datorama-akita-ng-effects.js",
+  "fesm5": "fesm5/datorama-akita-ng-effects.js",
+  "fesm2015": "fesm2015/datorama-akita-ng-effects.js",
+  "typings": "datorama-akita-ng-effects.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy. This is not allowed.\\nPlease delete and rebuild the package, without compiling with Ivy, before attempting to publish.\\n')\" && exit 1"
+  }
+}

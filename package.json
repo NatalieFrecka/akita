@@ -77,7 +77,6 @@
     "helpful-decorators": "2.1.0",
     "lodash": "4.17.20",
     "rxjs": "6.6.7",
-    "schematics-utilities": "2.0.3",
     "ts-action": "^11.0.0",
     "ts-action-operators": "^9.1.1",
     "tslib": "2.0.3",
@@ -86,7 +85,6 @@
   "devDependencies": {
     "@angular-devkit/build-angular": "0.1100.5",
     "@angular-devkit/build-ng-packagr": "0.1001.7",
-    "@angular-devkit/schematics": "10.1.7",
     "@angular/compiler": "11.0.5",
     "@angular/compiler-cli": "11.0.5",
     "@angular/language-service": "11.0.5",
